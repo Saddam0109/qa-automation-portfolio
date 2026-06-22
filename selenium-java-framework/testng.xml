@@ -1,0 +1,14 @@
+
+<suite name="Advanced Selenium Suite">
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="SauceDemo Tests">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.InventoryTest"/>
+            <class name="tests.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>
